@@ -1,0 +1,33 @@
+.perfil {
+    padding: 70px 120px 320px 150px;
+}
+
+h1 {
+    color: #073a61;
+    text-align: right;
+    font-size: 60px;
+    padding: 0 140px 20px 0;
+}
+
+.box_profile {
+    display: flex;
+    
+}
+.box_profile p {
+    border:3px solid rgb(29, 29, 102);
+    width: 100%;
+    height: 100%;
+    font-size: 36px;
+    color: rgb(29, 29, 102);
+    letter-spacing: 2px;
+    margin-left: 80px;
+    padding: 20px 20px 20px 20px;
+    text-align: justify;
+}
+
+.box_profile img {
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+    border: 8px solid rgb(29, 29, 102); 
+}

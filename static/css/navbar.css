@@ -1,0 +1,27 @@
+#cabeçalho{
+    margin: 0;
+    top: 0;
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #06406c;
+    position: sticky;
+}
+  
+li {
+    float: left;
+}
+  
+li a {  
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #073a61;
+    text-decoration: underline;
+}

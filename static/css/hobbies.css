@@ -1,0 +1,45 @@
+.box_hobbies {
+    width: 100%;
+    height: 850px;
+     background-image: url('../imagens/aviao.png'); 
+    background-attachment: fixed;
+    padding: 180px 0 180px 0;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    text-align: right;
+    font-size: 60px;
+    color: #06406c;
+    padding-right: 230px ;
+    padding-top: 70px;
+    background-color: #348fd4;
+}
+
+.box_hobbies p {
+    display: block;
+    margin: 15px auto 15px auto;
+    flex-direction: column;
+    line-height: 100px;
+    width: 30%;
+    height: 100px;
+    background-color: #06406c;
+    border-radius: 15px;
+
+}
+
+.box_hobbies p:hover {
+    text-decoration: underline;
+    background-color: #348fd4;
+}
+
+.box_hobbies a {
+    color:white;
+    letter-spacing: 2px;
+    width: 180px;
+    height: 50px;
+    font-size: 30px;
+    padding: 40px 46px;
+    text-decoration: none;
+}

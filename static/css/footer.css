@@ -1,0 +1,14 @@
+.box_footer  {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(44, 62, 161);
+  }
+
+.box_footer img {
+    float: right;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 40%;
+    margin-right: 25px;
+}

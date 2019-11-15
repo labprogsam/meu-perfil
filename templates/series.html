@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/series.css' %}">
+    <title>Series</title>
+</head>
+<body>
+    
+    <h2 id = serie> Séries </h2>
+
+    <section class = "Series" >
+
+        {% for serie in series %}
+            <h3> {{ serie.nome }} </h3>
+
+            {% if serie.imagem|length > 0 %}
+                <img src = "{{ serie.imagem.url }}" alt = "Imagem da série">
+            {% endif %}
+
+            <p> Nota: {{ serie.nota }} </p>
+
+            {% if serie.descricao|length > 0 %}
+                <p> Descrição: {{ serie.descricao }} </p>
+            {% endif %}
+
+       {% endfor %}
+
+    </section>
+
+</body>
+</html>
